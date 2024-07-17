@@ -1,0 +1,58 @@
+.hero__body {
+	display: flex;
+	flex-direction: column;
+	align-items: start;
+	
+
+	&-title {
+		font-size: 60px;
+		font-weight: 700;
+		font-family: var(--font-family-alt);
+		line-height: 1;
+		margin-top: 30px;
+		margin-bottom: 16px;
+
+		@include tablet {
+			font-size: 48px;
+			
+		}
+
+		@include mobile {
+			font-size: 40px;
+		}
+	}
+
+	&-description {
+		max-width: 635px;
+		font-size: 16px;
+		margin-bottom: 24px;
+
+		@include mobile {
+			display: none;
+		}
+	}
+
+	&-link {
+		color: var(--color-green);
+		height: 48px;
+		display: inline-flex;
+		align-items: center;
+		border: 1px solid transparent;
+		outline: 1px solid transparent;
+
+		@include hover {
+			color: var(--color-green-dark);
+			transition-duration: var(--transition-duration);
+		}
+
+		&:focus-visible {
+			border: 1px solid var(--color-green-alt);
+		}
+
+		&-wrapper {
+			display: inline-flex;
+			align-items: center;
+			column-gap: 8px;
+		}
+	}
+}

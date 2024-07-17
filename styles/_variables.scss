@@ -1,0 +1,25 @@
+:root {
+	--color-background-main: #1d2f30;
+	--color-background-alt: #899d9d;
+	--color-background-image: #0b1919;
+	--color-light: #ffffff;
+	--color-green: #bae249;
+	--color-green-alt: #83a440; 
+	--color-green-dark: #688b05;
+
+	--border-main: 1px solid var(--color-green);
+	--border-alt: 1px solid var(--color-green-alt);
+
+	--font-family-base: 'Open Sans', sans-serif;
+	--font-family-alt: 'Cormorant', sans-serif;
+
+	--container-width: 1110px;
+	--container-padding-x: 32px;
+
+	--section-padding-y: 30px;
+
+	--input-height: 45px;
+	--button-height: 45px;
+
+	--transition-duration: 0.2s;
+}

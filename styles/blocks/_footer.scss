@@ -1,0 +1,36 @@
+.footer {
+	&__soc1als {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		height: 60px;
+		background-color: var(--color-background-image);
+	}
+	&__soc1als-list {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		column-gap: 32px;
+	}
+	&__soc1als-item {
+		width: 24px;
+		height: 24px;
+	}
+	&__soc1als-link {
+		display: inline-flex;
+		height: 40px;
+		color: var(--color-background-alt);
+
+		@include hover {
+			color: var(--color-green);
+			transition-duration: var(--transition-duration);
+		}
+	}
+	&__copyright {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding-block: 3px;
+		color: var(--color-background-alt);
+	}
+}
